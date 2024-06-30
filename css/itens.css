@@ -1,0 +1,60 @@
+.itens {
+    display: grid;
+    place-items: center;
+}
+
+.itens img {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.itens h1 {
+    color: #fff;
+    padding: 4%;
+    font-family: KarlaFontR;
+    text-align: justify;
+}
+
+.itens p {
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 4%;
+    font-family: KarlaFontR;
+    text-align: justify;
+}
+
+.black-box h2 {
+    padding: 30px 4%;
+}
+
+.itens a {
+    padding-top: 30px;
+    padding-right: 66%;
+}
+
+.itens button {
+    padding: 10px 20px;
+    background-color: #b3995b;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-flex;
+    text-decoration: none;
+    text-align: center;
+    font-family: KarlaFontR;
+    font-size: 1.3em;
+}
+
+.itens button i {
+    padding-right: 5px;
+}
+
+@media screen and (max-width:1020px) {
+    .itens a {
+        padding-top: 30px;
+        padding-right: 40%;
+    }
+}
